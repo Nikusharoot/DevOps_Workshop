@@ -1,4 +1,4 @@
-FROM ubuntu
+FROM ubuntu:24.10
 RUN apt-get update -y
 RUN apt-get install python3 -y
 RUN apt-get install python3-pip -y
